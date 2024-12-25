@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: green;
+    }
+img{
+	width: 80%;
+    height: auto;
+    border-radius: 0px;
+	align-content:left;
+	margin:20px;
+}
+ .imageContainer img {
+      display: block;
+	 width:100px;
+	 height:100px;
+    }
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px auto;
+	color:black;
+	box-shadow:rgb(204, 219, 232);
+      
+    }
+
+    td {
+      border: 1px solid ;
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    td:first-child,
+    td:last-child {
+      width: 200px;
+      text-align: center;
+    }
+
+    td:nth-child(2) {
+      width: 600px;
+    }
+h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: black;
+    }
+
+    .link {
+      color: yellow;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
